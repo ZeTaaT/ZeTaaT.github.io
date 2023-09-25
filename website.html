@@ -26,48 +26,129 @@
 
 
 
-<body class="bg-sky-600 bg-gradient-to-r from-cyan-600 to-blue-700">
-    <header id = "topBar" class="flex justify-center mb-40"> 
+<body class="bg-sky-600 bg-gradient-to-tl from-red-700 to-blue-700 px-[12%] py-[2%] m-auto">
+    <header id = "topBar" class=""> 
+        <div class="relative h-32 w-32 ...">
+            <div class="absolute left-0 top-0 h-16 w-16 ...">
+                <strong class="text-4xl text-sky-400/75"> Illia Lobachevskyy </strong>
+            </div>
+          </div>
         <div>
-                PORTAFOLIO
-        </div>
     </header>
 
-    <div id = "projects" class="flex flex-wrap justify-center grid grid-cols-3 gap-4 content-evenly">
+    <div id = "projects" class="flex flex-wrap grid grid-cols-3 gap-8">
        <div id = "AlphaBetaGame" class="">
-        <img src="assets\img\stock.jpg">
-        <div class="flex justify-center">
-            <h1> AlphaBetaGame </h1>
+        <div class="relative">
+            <img src="assets\img\chess.png" class="w-[100%] border-solid border-4 border-x-red-700 border-y-blue-500">
+            <a href="https://github.com/ZeTaaT/AlphaBetaGame">
+              <img src="assets\img\OIP.jpg" class="w-[25%] absolute bottom-2 right-2 rounded-full hover:opacity-50" alt="Git Link">
+            </a>
         </div>
-       </div>
-       <div id = "Futuro" class="">
-        <img src="assets\img\stock.jpg">
-        <div class="flex justify-center">
-            Futuro
+        <h3 class="flex justify-center text-3xl text-gray-300"> AlphaBetaGame </h3>
+        <div class="box-border p-2">
+            <h3 class="break-words"> A chess engine made in C# with a difficulty setting that will determine the best possible move using AlphaBeta Algorithm.</h3>
+            <div id = "BulletPoints" class="">
+                <ul class="list-inside list-disc">
+                    <li> Took 3 months to finish</li>
+                    <li> Object Oriented Programming</li>
+                </ul>
+            </div>
         </div>
        </div>
        <div id = "DeleteMeHere" class="">
-        <img src="assets\img\stock.jpg">
-        <div class="flex justify-center">
-            DeleteMeHere
+        <div class="relative">
+            <img src="assets\img\delete.jpeg" class="w-[100%] border-solid border-4 border-x-red-700 border-y-blue-500">
+            <a href="https://github.com/ZinnurovArtur/DeleteMeHere">
+              <img src="assets\img\OIP.jpg" class="w-[25%] absolute bottom-2 right-2 rounded-full hover:opacity-50" alt="Git Link">
+            </a>
+        </div>
+        <h3 class="flex justify-center text-3xl text-gray-300"> DeleteMeHere </h3>
+        <div class="box-border p-2">
+            <h3 class="break-words"> A collaborative project where we develop an application that will sort out your subscriptions to various web services.</h3>
+            <div id = "BulletPoints" class="">
+                <ul class="list-inside list-disc">
+                    <li> In Progress Team Project</li>
+                    <li> Password Hashing</li>
+                    <li> OAuth2 authorisation</li>
+                </ul>
+            </div>
+        </div>
+       </div>
+       <div id = "Futuro" class="">
+        <div class="relative">
+            <img src="assets\img\futuro.jpg" class="w-[100%] border-solid border-4 border-x-red-700 border-y-blue-500">
+            <a href="https://github.com/samllbrown/Futuro">
+              <img src="assets\img\OIP.jpg" class="w-[25%] absolute bottom-2 right-2 rounded-full hover:opacity-50" alt="Git Link">
+            </a>
+        </div>
+        <h3 class="flex justify-center text-3xl text-gray-300"> Futuro </h3>
+        <div class="box-border p-2">
+            <h3 class="break-words"> This mecha destroying game was made with JavaFX and is actually based on an old mouse game.</h3>
+            <div id = "BulletPoints" class="">
+                <ul class="list-inside list-disc">
+                    <li> Fun Team project</li>
+                    <li> Has some fun mechanics and good interactions with the inventory</li>
+                    <li> Object Oriented Programming</li>
+                </ul>
+            </div>
+        </div>
+       </div>
+       
+       <div id = "WebApp" class="">
+        <div class="relative">
+            <img src="assets\img\register.png" class="w-[100%] border-solid border-4 border-x-red-700 border-y-blue-500">
+            <a href="https://github.com/ZeTaaT/aboba">
+              <img src="assets\img\OIP.jpg" class="w-[25%] absolute bottom-2 right-2 rounded-full hover:opacity-50" alt="Git Link">
+            </a>
+        </div>
+        <h3 class="flex justify-center text-3xl text-gray-300"> ToastY </h3>
+        <div class="box-border p-2">
+            <h3 class="break-words"> This is a social media web application made  that allows you to post, comment and manage your account.</h3>
+            <div id = "BulletPoints" class="">
+                <ul class="list-inside list-disc">
+                    <li> Made using Laravel in Visual Studio</li>
+                    <li> Runs with a local server</li>
+                    <li> Uses Kernel for better performance </li>
+                </ul>
+            </div>
         </div>
        </div>
        <div id = "NewOntheDot" class="">
-        <img src="assets\img\stock.jpg">
-        <div class="flex justify-center">
-            NewOntheDot
+        <div class="relative">
+            <img src="assets\img\news.png" class="w-[100%] border-solid border-4 border-x-red-700 border-y-blue-500">
+            <a href="https://github.com/ZeTaaT/NewOnTheDot">
+              <img src="assets\img\OIP.jpg" class="w-[25%] absolute bottom-2 right-2 rounded-full hover:opacity-50" alt="Git Link">
+            </a>
         </div>
-       </div>
-       <div id = "WebApp" class="">
-        <img src="assets\img\stock.jpg">
-        <div class="flex justify-center">
-            WebApp
+        <h3 class="flex justify-center text-3xl text-gray-300"> NewOntheDot </h3>
+        <div class="box-border p-2">
+            <h3 class="break-words"> News aggregator app for Android. Displays news that the user is interested in and has preference selection.</h3>
+            <div id = "BulletPoints" class="">
+                <ul class="list-inside list-disc">
+                    <li> News API</li>
+                    <li> Kotlin</li>
+                    <li> Firebase</li>
+                </ul>
+            </div>
         </div>
        </div>
        <div id = "CThead" class="">
-        <img src="assets\img\stock.jpg">
-        <div class="flex justify-center">
-            CThead
+        <div class="relative">
+            <img src="assets\img\head.gif" class="w-[100%] border-solid border-4 border-x-red-700 border-y-blue-500">
+            <a href="https://github.com/ZeTaaT/CThead">
+              <img src="assets\img\OIP.jpg" class="w-[25%] absolute bottom-2 right-2 rounded-full hover:opacity-50" alt="Git Link">
+            </a>
+        </div>
+        <h3 class="flex justify-center text-3xl text-gray-300"> CTHead </h3>
+        <div class="box-border p-2">
+            <h3 class="break-words"> A program made with Java to view and change the CT scans of a head to better understand the structure and components. </h3>
+            <div id = "BulletPoints" class="">
+                <ul class="list-inside list-disc">
+                    <li> Thumbnail view</li>
+                    <li> Image resizing</li>
+                    <li> Gamma correction</li>
+                </ul>
+            </div>
         </div>
 
        </div>
